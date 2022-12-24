@@ -1,0 +1,68 @@
+@import "./vars";
+@import "./_header.scss";
+@import "./_welcome";
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: $text1-color;
+}
+
+h3 {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: $text2-color;
+}
+
+.button {
+  width: 154px;
+  height: 40px;
+  border: 2px solid $second-color;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+}
+
+.green {
+  color: $primary-color;
+}

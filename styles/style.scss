@@ -1,10 +1,15 @@
 @import "./vars";
 @import "./_header.scss";
 @import "./_welcome";
+@import "./about";
 
 body {
   margin: 0 auto;
   max-width: 1440px;
+}
+
+main {
+  width: 100%;
 }
 
 a {
@@ -35,6 +40,17 @@ h1 {
   color: $text1-color;
 }
 
+h2 {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: $text1-color;
+}
+
 h3 {
   margin: 0 0;
   padding: 0 0;
@@ -61,8 +77,19 @@ h3 {
   justify-content: center;
   text-align: center;
   color: #000000;
+  &:hover {
+    background-color: $second-color;
+  }
 }
 
 .green {
   color: $primary-color;
+}
+
+.orange {
+  color: $second-color;
+}
+
+.blur {
+  filter: blur(7px);
 }

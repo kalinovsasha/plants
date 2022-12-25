@@ -167,6 +167,81 @@ nav {
   height: 479px;
 }
 
+.service {
+  width: 100%;
+  height: 1300px;
+  background-color: #edf2ec;
+  display: flex;
+  flex-direction: column;
+}
+
+.service__content {
+  width: 1000px;
+  height: 94px;
+  margin-top: 40px;
+  margin-left: 109px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.service__content__title {
+  width: 306px;
+}
+
+.service__content__btns {
+  width: 560px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: -8px;
+  margin-top: 10px;
+}
+
+.services {
+  margin-top: 90px;
+  align-self: center;
+  display: grid;
+  gap: 55px 117px;
+  grid-template-columns: repeat(3, 330px);
+}
+
+.services__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 450px;
+}
+
+.services__item__img {
+  width: 329px;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.services__item__title {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #e06733;
+}
+
+.services__item__description {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+}
+
 body {
   margin: 0 auto;
   max-width: 1440px;
@@ -244,6 +319,28 @@ h3 {
 }
 .button:hover {
   background-color: #e06733;
+  transition: 0.35s;
+}
+
+.button-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 158px;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  border: 2px solid #e06733;
+  border-radius: 5px;
+}
+.button-2:hover {
+  background-color: #e06733;
+  transition: 0.35s;
 }
 
 .green {

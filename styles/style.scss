@@ -1,7 +1,8 @@
 @import "./vars";
-@import "./_header.scss";
-@import "./_welcome";
+@import "./header";
+@import "./welcome";
 @import "./about";
+@import "./service";
 
 body {
   margin: 0 auto;
@@ -79,6 +80,28 @@ h3 {
   color: #000000;
   &:hover {
     background-color: $second-color;
+    transition: .35s;
+  }
+}
+
+.button-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 158px;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  border: 2px solid $second-color;
+  border-radius: 5px;
+  &:hover {
+    background-color: $second-color;
+    transition: .35s;
   }
 }
 

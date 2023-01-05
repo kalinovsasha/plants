@@ -3,6 +3,11 @@
 @import "./welcome";
 @import "./about";
 @import "./service";
+@import "./price";
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0 auto;
@@ -80,6 +85,7 @@ h3 {
   color: #000000;
   &:hover {
     background-color: $second-color;
+    cursor: pointer;
     transition: .35s;
   }
 }
@@ -102,6 +108,7 @@ h3 {
   &:hover {
     background-color: $second-color;
     transition: .35s;
+    cursor: pointer;
   }
 }
 

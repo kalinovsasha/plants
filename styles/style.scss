@@ -37,6 +37,14 @@ li {
   text-decoration: none;
 }
 
+button {
+  margin: 0 0;
+  padding: 0 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
 h1 {
   margin: 0 0;
   padding: 0 0;
@@ -71,8 +79,8 @@ h3 {
 }
 
 .button {
-  width: 154px;
-  height: 40px;
+  width: 156px;
+  height: 44px;
   border: 2px solid $second-color;
   border-radius: 10px;
   font-family: "Inter";
@@ -98,7 +106,7 @@ h3 {
   align-items: center;
   justify-content: center;
   height: 48px;
-  width: 158px;
+  width: 164px;
   font-family: "Inika";
   font-style: normal;
   font-weight: 400;

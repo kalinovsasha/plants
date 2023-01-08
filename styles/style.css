@@ -199,6 +199,10 @@ nav {
   margin-top: 10px;
 }
 
+.service__content__btns_active {
+  background-color: #e06733;
+}
+
 .services {
   margin-top: 90px;
   align-self: center;
@@ -220,6 +224,7 @@ nav {
   height: 350px;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: 0.35s;
 }
 
 .services__item__title {
@@ -688,4 +693,5 @@ h3 {
 
 .blur {
   filter: blur(7px);
+  transition: 0.35s;
 }/*# sourceMappingURL=style.css.map */

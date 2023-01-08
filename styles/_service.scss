@@ -30,6 +30,10 @@
   margin-top: 10px;
 }
 
+.service__content__btns_active {
+  background-color: $second-color;
+}
+
 .services {
   margin-top: 90px;
   align-self: center;
@@ -50,6 +54,7 @@
   width: 329px;
   height: 350px;
   object-fit: cover;
+  transition: .35s;
 }
 
 .services__item__title {

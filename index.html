@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link rel="stylesheet" href="./styles/style.css" >
@@ -12,7 +12,7 @@
     <header>
       <div class="header-container">
         <div class="logo-container">
-          <img class="logo-img" src="./assets/logo.svg" alt="logo" />
+          <img class="logo-img" src="./assets/logo.svg" alt="logo" >
           <div class="logo__text">Plants</div>
         </div>
 
@@ -49,7 +49,7 @@
             class="welcome-container_image"
             src="./assets/leafs.png"
             alt=""
-          />
+          >
           <div class="welcome-container__text-container">
             <h1 class="welcome__h1">
               We grow <span class="green">plants</span> and give you oxygen
@@ -81,7 +81,7 @@
               electronic typesetting, remaining essentially unchanged.
             </h3>
           </div>
-          <img class="about__image" src="./assets/houseplant.png" alt="houseplant" />
+          <img class="about__image" src="./assets/houseplant.png" alt="houseplant" >
         </div>
       </section>
 
@@ -89,38 +89,38 @@
         <div class="service__content">
           <h2 class="service__content__title green">Service and our projects</h2>
           <div class="service__content__btns">
-            <button class="service__btn button-2">Gardens</button>
-            <button class="service__btn button-2">Lawn</button>
-            <button class="service__btn button-2">Planting</button>
+            <button id="gardenService" class="service__btn button-2">Gardens</button>
+            <button id="lawnService" class="service__btn button-2">Lawn</button>
+            <button id="plantingService" class="service__btn button-2">Planting</button>
           </div>
         </div>
         <div class="services">
-          <div class="services__item">
+          <div id="Img1" class="services__item">
             <img class="services__item__img" src="./assets/first.png" alt="first">
             <div class="services__item__title">Garden care</div>
             <div class="services__item__description">Lorem Ipsum has been the industry</div>
           </div>
-          <div class="services__item">
+          <div class="services__item" id="Img2">
             <img class="services__item__img" src="./assets/2.png" alt="first">
             <div class="services__item__title">Planting</div>
             <div class="services__item__description">Lorem Ipsum has been the industry</div>
           </div>
-          <div class="services__item">
+          <div class="services__item" id="Img3">
             <img class="services__item__img" src="./assets/3.png" alt="first">
             <div class="services__item__title">Lawn care</div>
             <div class="services__item__description">Lorem Ipsum has been the industry</div>
           </div>
-          <div class="services__item">
+          <div class="services__item" id="Img4">
             <img class="services__item__img" src="./assets/4.png" alt="first">
             <div class="services__item__title">Planting</div>
             <div class="services__item__description">Lorem Ipsum has been the industry</div>
           </div>
-          <div class="services__item">
+          <div class="services__item" id="Img5">
             <img class="services__item__img" src="./assets/5.png" alt="first">
             <div class="services__item__title">Garden care</div>
             <div class="services__item__description">Lorem Ipsum has been the industry</div>
           </div>
-          <div class="services__item">
+          <div class="services__item" id="Img6">
             <img class="services__item__img" src="./assets/6.png" alt="first">
             <div class="services__item__title">Planting</div>
             <div class="services__item__description">Lorem Ipsum has been the industry</div>
@@ -220,7 +220,7 @@
           </div>
           <div class="contacts__select-city__drop "></div>
         </div>
-        <img class="contacts__img" src="./assets/contact_woman 1.png" alt="img" >
+        <img class="contacts__img" src="./assets/contact_woman.png" alt="img" >
       </section>
     </main>
 
@@ -252,4 +252,6 @@
       </div>
     </footer>
   </body>
+  <script src="./script/blurHandler.js"></script>
+  <script src="./script/app.js"></script>
 </html>

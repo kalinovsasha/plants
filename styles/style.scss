@@ -7,6 +7,10 @@
 @import "./contacts";
 @import "./footer";
 
+@import "./tablet/header_T";
+@import "./tablet/about_T";
+@import "./tablet/welcome_T";
+
 html {
   scroll-behavior: smooth;
 }
@@ -93,6 +97,7 @@ h3 {
   justify-content: center;
   text-align: center;
   color: #000000;
+
   &:hover {
     background-color: $second-color;
     cursor: pointer;
@@ -115,6 +120,7 @@ h3 {
   text-align: center;
   border: 2px solid $second-color;
   border-radius: 5px;
+
   &:hover {
     background-color: $second-color;
     transition: .35s;
@@ -133,4 +139,12 @@ h3 {
 .blur {
   filter: blur(7px);
   transition: .35s;
+}
+
+@media (max-width: 1242px) {
+
+  body {
+    max-width: 768px;
+  }
+
 }

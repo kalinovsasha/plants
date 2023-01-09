@@ -1,0 +1,48 @@
+@media (max-width: 1242px) {
+  .welcome {
+    height: 420px;
+    width: 100%;
+  }
+
+  .welcome-container {
+    height: 310x;
+    width: 668px;
+    margin-top: -25px;
+  }
+
+  .welcome-container_image {
+    margin-top: -65px;
+    width: 280px;
+    height: 254px;
+    order: 2;
+  }
+
+  .welcome-container__text-container {
+    width: 346px;
+    height: 310px;
+  }
+
+  .welcome__h1 {
+    margin-left: 5px;
+    width: 341px;
+    height: 110px;
+    text-align: justify;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .welcome__text {
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 341px;
+    height: 105px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .welcome-btn {
+    margin-left: 5px;
+  }
+}

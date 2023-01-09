@@ -85,6 +85,11 @@
   align-self: center;
   display: flex;
   flex-direction: column;
+  &:hover {
+    cursor: pointer;
+    background-color: #D6E7D2;
+    transition: .3s;
+  }
 }
 
 .price__items__opened {

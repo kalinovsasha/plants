@@ -93,6 +93,7 @@ h3 {
   justify-content: center;
   text-align: center;
   color: #000000;
+  background-color: $bg-color;
   &:hover {
     background-color: $second-color;
     cursor: pointer;
@@ -115,7 +116,9 @@ h3 {
   text-align: center;
   border: 2px solid $second-color;
   border-radius: 5px;
+  color: $second-color;
   &:hover {
+    color: black;
     background-color: $second-color;
     transition: .35s;
     cursor: pointer;

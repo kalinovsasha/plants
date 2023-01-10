@@ -238,13 +238,17 @@ nav {
 }
 
 .services__item__description {
-  margin-top: 10px;
+  margin-top: 13px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #717171;
+}
+
+.service__btn {
+  background-color: #EDF2EC;
 }
 
 .price {
@@ -300,6 +304,7 @@ nav {
   line-height: 26px;
   text-align: center;
   color: #e06733;
+  background-color: white;
   align-self: flex-end;
 }
 .price__button:hover {
@@ -654,6 +659,7 @@ h3 {
   justify-content: center;
   text-align: center;
   color: #000000;
+  background-color: #edf2ec;
 }
 .button:hover {
   background-color: #e06733;
@@ -676,8 +682,10 @@ h3 {
   text-align: center;
   border: 2px solid #e06733;
   border-radius: 5px;
+  color: #e06733;
 }
 .button-2:hover {
+  color: black;
   background-color: #e06733;
   transition: 0.35s;
   cursor: pointer;

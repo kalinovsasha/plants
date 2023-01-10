@@ -68,11 +68,15 @@
 }
 
 .services__item__description {
-  margin-top: 10px;
+  margin-top: 13px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: $text1-color;
+}
+
+.service__btn {
+  background-color:  #EDF2EC;
 }

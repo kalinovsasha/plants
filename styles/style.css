@@ -879,6 +879,7 @@ footer {
     color: #010201;
   }
   .logo-img {
+    margin-top: -10px;
     width: 20px;
     height: 20px;
   }
@@ -886,7 +887,8 @@ footer {
     width: 70%;
   }
   .nav {
-    width: 100%;
+    margin-left: 15px;
+    width: 452px;
     height: 50px;
     display: -webkit-box;
     display: -ms-flexbox;

@@ -1,0 +1,56 @@
+footer {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__container {
+  width: 85%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+  }
+}
+
+.footer__git {
+  align-self: center;
+  width: 182px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  &__year{
+    margin-left: 20px;
+  }
+  &__href {
+    margin-left: 20px;
+  }
+}
+
+.footer__social {
+  margin-top: 7px;
+  justify-self: center;
+  width: 188px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

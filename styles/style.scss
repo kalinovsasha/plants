@@ -1,0 +1,160 @@
+@import "./vars";
+@import "./header";
+@import "./welcome";
+@import "./about";
+@import "./service";
+@import "./price";
+@import "./contacts";
+@import "./footer";
+//Tablet
+@import "./tablet/header_T";
+@import "./tablet/about_T";
+@import "./tablet/welcome_T";
+@import "./tablet/service_T";
+@import "./tablet/price_T";
+@import "./tablet/contacts_T";
+@import "./tablet/footer_T";
+
+*{
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+main {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+button {
+  margin: 0 0;
+  padding: 0 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+h1 {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: $text1-color;
+}
+
+h2 {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: $text1-color;
+}
+
+h3 {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: $text2-color;
+}
+
+.button {
+  width: 156px;
+  height: 44px;
+  border: 2px solid $second-color;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  background-color: $bg-color;
+
+  &:hover {
+    background-color: $second-color;
+    cursor: pointer;
+    transition: .35s;
+  }
+}
+
+.button-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 164px;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  border: 2px solid $second-color;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $second-color;
+    transition: .35s;
+    cursor: pointer;
+  }
+}
+
+.green {
+  color: $primary-color;
+}
+
+.orange {
+  color: $second-color;
+}
+
+.blur {
+  filter: blur(7px);
+  transition: .35s;
+}
+
+@media (max-width: 1242px) {
+  html {
+    margin: 0 auto;
+    max-width: 767px;
+  }
+  body {
+    max-width: 767px;
+  }
+
+}

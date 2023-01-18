@@ -887,7 +887,7 @@ footer {
     width: 70%;
   }
   .nav {
-    margin-left: 15px;
+    margin-left: 20px;
     width: 452px;
     height: 50px;
     display: -webkit-box;
@@ -962,10 +962,11 @@ footer {
     font-size: 35px;
     line-height: 46px;
     margin-top: 5px;
+    margin-left: 15px;
   }
   .about__text {
-    margin-left: -31px;
-    margin-top: 45px;
+    margin-left: -23px;
+    margin-top: 42px;
     width: 668px;
     height: 206px;
     line-height: 30px;
@@ -974,6 +975,7 @@ footer {
   }
   .about__image {
     margin-top: 45px;
+    margin-left: 15px;
     width: 250px;
     height: 4258px;
   }
@@ -1021,7 +1023,7 @@ footer {
     line-height: 25px;
   }
   .welcome-btn {
-    margin-left: 5px;
+    margin-left: 9px;
   }
 }
 
@@ -1031,7 +1033,7 @@ footer {
     height: 1780px;
   }
   .service__content {
-    width: 100%;
+    width: 85%;
     height: 185px;
     margin-top: 60px;
     margin-left: 50px;
@@ -1363,7 +1365,8 @@ footer {
             flex-direction: column;
   }
   .contacts__title {
-    margin-top: 33px;
+    margin-top: 32px;
+    margin-left: 15px;
   }
   .contacts__select-city {
     margin-top: 96px;
@@ -1381,6 +1384,8 @@ footer {
             flex-direction: column;
   }
   .contacts__select-city__city {
+    margin-left: 10px;
+    margin-top: 4px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1454,7 +1459,7 @@ footer {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    margin-left: 16px;
+    margin-left: 35px;
     margin-top: 20px;
   }
 }
@@ -1495,7 +1500,8 @@ footer {
     color: #000000;
   }
   .footer__git {
-    margin-top: -10px;
+    margin-top: -9px;
+    margin-left: 10px;
     -ms-flex-item-align: center;
         align-self: center;
     width: 182px;
@@ -1521,7 +1527,7 @@ footer {
     margin-left: 20px;
   }
   .footer__social {
-    margin-left: -11px;
+    margin-left: -0px;
     margin-top: 10px;
     justify-self: center;
     width: 188px;
@@ -1538,7 +1544,7 @@ footer {
             justify-content: space-between;
   }
   .footer__rs {
-    margin-left: -16px;
+    margin-left: -0px;
     margin-top: -8px;
   }
 }
@@ -1694,8 +1700,12 @@ h3 {
 }
 
 @media (max-width: 1242px) {
+  html {
+    margin: 0 auto;
+    max-width: 767px;
+  }
   body {
-    max-width: 768px;
+    max-width: 767px;
   }
 }
 /*# sourceMappingURL=style.css.map */

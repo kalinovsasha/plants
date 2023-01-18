@@ -10,7 +10,8 @@
   }
 
   .contacts__title {
-    margin-top: 33px;
+    margin-top: 32px;
+    margin-left: 15px;
   }
 
   .contacts__select-city {
@@ -24,6 +25,8 @@
   }
 
   .contacts__select-city__city {
+    margin-left: 10px;
+    margin-top: 4px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -85,7 +88,7 @@
     width: 200px;
     height: 248px;
     align-self: center;
-    margin-left: 16px;
+    margin-left: 35px;
     margin-top: 20px;
   }
 

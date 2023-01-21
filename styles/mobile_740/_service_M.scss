@@ -1,35 +1,39 @@
-@media (max-width: 1242px) {
+@media (max-width: 740px) {
   .service {
     width: 100%;
-    height: 1780px;
+    height: 3150px;
   }
 
   .service__content {
     width: 85%;
     height: 185px;
-    margin-top: 60px;
-    margin-left: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
     display: flex;
     flex-direction: column;
   }
 
   .service__content__title {
-    width: 306px;
+    width: 187px;
     font-weight: 400;
-    font-size: 35px;
-    line-height: 46px;
+    font-size: 25px;
+    line-height: 33px;
   }
 
   .service__content__btns {
-    width: 560px;
+    width: 253px;
+    height: 80px;
+    flex-wrap: wrap;
     align-self: flex-start;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-right: -8px;
-    margin-top: 44px;
+    margin-top: 0px;
   }
-
+  #plantingService {
+    margin-top: 10px;
+  }
   .service__content__btns_active {
     background-color: $second-color;
   }
@@ -39,8 +43,8 @@
     margin-left: 50px;
     align-self: flex-start;
     display: grid;
-    gap: 37px 106px;
-    grid-template-columns: repeat(2, 281px);
+    gap: 34px;
+    grid-template-columns: repeat(1, 281px);
   }
 
   .services__item {
@@ -56,8 +60,8 @@
     height: 350px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    object-fit: inherit;
-    transition: .35s;
+    object-fit:fill;
+    transition: 0.35s;
   }
 
   .services__item__title {
@@ -81,5 +85,4 @@
     color: $text1-color;
     text-align: center;
   }
-
 }

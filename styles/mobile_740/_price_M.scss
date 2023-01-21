@@ -1,48 +1,58 @@
-@media (max-width: 1242px) {
+@media (max-width: 740px) {
   .price {
     width: 100%;
-    height: 585px;
+    height: 512px;
     background-color: white;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .price-container {
-    height: 500px;
-    width: 357px;
-    margin: 40px 65px 109px;
+    height: 330px;
+    width: 100%;
+    margin: 6px 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price-container-2 {
+    height: 150px;
+    width: 100%;
+    margin: 0px 0px 0px;
     display: flex;
     flex-direction: column;
   }
 
   .price__title {
-    margin: 0 0;
+    align-self: center;
+    margin: 19px 0;
     padding: 0 0;
-    width: 135px;
-    height: 49px;
+    width: 62px;
+    height: 30px;
     color: $links-color;
     font-weight: 700;
-    font-size: 35px;
-    line-height: 42px;
+    font-size: 25px;
+    line-height: 30px;
   }
 
   .price__about {
-    width: 296px;
-    height: 78px;
+    align-self: center;
+    width: 230px;
+    height: 77px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
-    text-align: right;
-    margin-top: 100px;
-    margin-left: -95px;
+    text-align: center;
+    margin-top: 11px;
+    margin-left: 10px;
   }
 
   .price__button {
     width: 162px;
     height: 50px;
-    margin-right: -5px;
-    margin-top: 20px;
+    margin-right: -13px;
+    margin-top: 13px;
     font-family: "Inika";
     font-style: normal;
     font-weight: 700;
@@ -50,7 +60,7 @@
     line-height: 26px;
     text-align: center;
     color: #e06733;
-    align-self: flex-end;
+    align-self: center;
 
     &:hover {
       color: $links-color;
@@ -59,6 +69,7 @@
   }
 
   .price__img {
+    display: none;
     width: 152px;
     height: 174px;
     object-fit: contain;
@@ -67,30 +78,51 @@
   }
 
   .price__items-container {
-    margin-left: -15px;
-    margin-top: 50px;
-    width: 332px;
-    height: 282px;
+    align-self: center;
+    margin-left: 20px;
+    margin-top: 17px;
+    width: 224px;
+    height: 235px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     border-radius: 20px;
     border: 1px solid #e3e1d5;
   }
 
   .price__items {
-    width: 250px;
+    width: 180px;
     height: 50px;
     background: #edf2ec;
     border-radius: 20px;
-    margin-top: 32px;
+    margin-top: 14px;
     align-self: center;
     display: flex;
     flex-direction: column;
 
     &:hover {
       cursor: pointer;
-      background-color: #D6E7D2;
-      transition: .3s;
+      background-color: #d6e7d2;
+      transition: 0.3s;
+    }
+  }
+  #itmBasic {
+    margin-top: 0px;
+  }
+  .price__items-2 {
+    width: 180px;
+    height: 50px;
+    background: #edf2ec;
+    border-radius: 20px;
+    margin-top: 14px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #d6e7d2;
+      transition: 0.3s;
     }
   }
 
@@ -112,10 +144,10 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     color: $links-color;
-    margin-left: 40px;
+    margin-left: 30px;
   }
 
   .price__items__item__arrow {
@@ -187,5 +219,4 @@
     line-height: 20px;
     color: #717171;
   }
-
 }

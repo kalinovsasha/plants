@@ -1,24 +1,22 @@
 @media (max-width: 1242px) {
-
   .contacts {
     margin-top: 8px;
     width: 100%;
-    height: 734px;
-    background-color: $bg-color;
-    display: flex;
-    flex-direction: column;
+    height: 437px;
   }
 
   .contacts__title {
-    margin-top: 32px;
+    margin-top: 17px;
     margin-left: 15px;
+    font-size: 25px;
+    line-height: 33px;
   }
 
   .contacts__select-city {
-    margin-top: 96px;
+    margin-top: 80px;
     margin-right: 0px;
     align-self: center;
-    width: 450px;
+    width: 300px;
     height: 284px;
     display: flex;
     flex-direction: column;
@@ -26,20 +24,19 @@
 
   .contacts__select-city__city {
     margin-left: 10px;
-    margin-top: 4px;
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 450px;
+    width: 300px;
     height: 50px;
-    background: #D6E7D2;
+    background: #d6e7d2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     &:hover {
       cursor: pointer;
-      background-color: #C1E698;
-      ;
-      transition: .3s;
+      background-color: #c1e698;
+      transition: 0.3s;
     }
 
     &_drop {
@@ -49,7 +46,7 @@
     &__name {
       margin-left: 20px;
       align-self: center;
-      font-family: 'Inter';
+      font-family: "Inter";
       font-style: normal;
       font-weight: 400;
       font-size: 20px;
@@ -63,7 +60,7 @@
       height: 16px;
       border-radius: 50%;
       align-self: center;
-      margin-right: 35px;
+      margin-right: 25px;
 
       &:hover {
         cursor: pointer;
@@ -74,7 +71,7 @@
   .contacts__select-city__drop {
     width: 450px;
     height: 234px;
-    background: #DCE9D9;
+    background: #dce9d9;
     display: none;
 
     &_drop {
@@ -85,11 +82,10 @@
 
   .contacts__img {
     position: relative;
-    width: 200px;
-    height: 248px;
+    width: 100px;
+    height: 124px;
     align-self: center;
-    margin-left: 35px;
-    margin-top: 20px;
+    margin-left: 13px;
+    margin-top: 0px;
   }
-
 }

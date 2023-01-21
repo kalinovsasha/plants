@@ -14,8 +14,16 @@
 @import "./tablet/price_T";
 @import "./tablet/contacts_T";
 @import "./tablet/footer_T";
+//Mobile
+@import "./mobile_740/header_M";
+@import "./mobile_740/about_M";
+@import "./mobile_740/welcome_M";
+@import "./mobile_740/service_M";
+@import "./mobile_740/price_M";
+@import "./mobile_740/contacts_M";
+@import "./mobile_740/footer_M";
 
-*{
+* {
 }
 html {
   scroll-behavior: smooth;
@@ -108,7 +116,7 @@ h3 {
   &:hover {
     background-color: $second-color;
     cursor: pointer;
-    transition: .35s;
+    transition: 0.35s;
   }
 }
 
@@ -130,7 +138,7 @@ h3 {
 
   &:hover {
     background-color: $second-color;
-    transition: .35s;
+    transition: 0.35s;
     cursor: pointer;
   }
 }
@@ -145,7 +153,7 @@ h3 {
 
 .blur {
   filter: blur(7px);
-  transition: .35s;
+  transition: 0.35s;
 }
 
 @media (max-width: 1242px) {
@@ -156,5 +164,22 @@ h3 {
   body {
     max-width: 767px;
   }
+}
 
+@media (max-width: 740px) {
+  html {
+    margin: 0 auto;
+    max-width: 380px;
+  }
+  body {
+    max-width: 380px;
+  }
+  .button {
+    width: 100px;
+    height: 34px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+  }
 }

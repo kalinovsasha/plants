@@ -195,3 +195,14 @@ h3 {
     line-height: 33px;
   }
 }
+
+@media (max-width: 369px) {
+  body {
+    max-width: 320px;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+  }
+}

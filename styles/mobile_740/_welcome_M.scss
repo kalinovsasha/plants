@@ -51,3 +51,9 @@
     margin-left: 0px;
   }
 }
+@media (max-width: 369px) {
+  .welcome__h1 {
+    width: 270px;
+    font-size: 25px;
+  }
+}

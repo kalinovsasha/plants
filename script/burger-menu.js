@@ -3,9 +3,13 @@ const nav = document.querySelector(".nav");
 const html = document.querySelector("html");
 const headerBurger = document.querySelector(".header-burger");
 const headerBurgerLine = document.querySelector(".header-burger__line");
+const cross = document.querySelector(".nav-cross");
 
+cross.onclick = () => {
+  nav.classList.add("nav_hidden");
+};
 burger.onclick = () => {
-    nav.classList.toggle("nav_hidden");
+  nav.classList.toggle("nav_hidden");
 };
 
 html.addEventListener("click", (e) => {

@@ -53,3 +53,16 @@
     height: 147px;
   }
 }
+
+@media (max-width: 369px) {
+  .about__text {
+    width: 93% !important;
+    font-size: 13px;
+  }
+  .about__title {
+    width: 90%;
+  }
+ .about__text {
+  width: 97%;
+ }
+}

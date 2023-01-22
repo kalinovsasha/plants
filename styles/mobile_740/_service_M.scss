@@ -60,7 +60,7 @@
     height: 350px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    object-fit:fill;
+    object-fit: fill;
     transition: 0.35s;
   }
 
@@ -84,5 +84,18 @@
     line-height: 20px;
     color: $text1-color;
     text-align: center;
+  }
+}
+
+@media (max-width: 369px) {
+  .services {
+    margin-left: 30px;
+    grid-template-columns: repeat(1, 250px);
+  }
+  .services__item {
+    width: 250px;
+  }
+  .services__item__img {
+    width: 250px;
   }
 }

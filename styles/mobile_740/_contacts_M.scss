@@ -1,4 +1,4 @@
-@media (max-width: 1242px) {
+@media (max-width: 740px) {
   .contacts {
     margin-top: 8px;
     width: 100%;
@@ -87,5 +87,11 @@
     align-self: center;
     margin-left: 13px;
     margin-top: 0px;
+  }
+}
+
+@media (max-width: 369px) { 
+  .contacts__select-city__city {
+    width: 270px;
   }
 }

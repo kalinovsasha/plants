@@ -83,6 +83,10 @@
   flex-direction: column;
   border-radius: 20px;
   border: 1px solid #e3e1d5;
+
+  &_opened {
+    height: 370px;
+  }
 }
 
 .price__items {
@@ -101,7 +105,7 @@
   }
 }
 
-.price__items__opened {
+.price__items_opened {
   height: 154px !important;
   background-color: $opened;
 }
@@ -136,7 +140,7 @@
 }
 
 // Order menu
-.order-container__show {
+.order-container_show {
   display: flex !important;
   flex-direction: column;
 }

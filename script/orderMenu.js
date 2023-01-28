@@ -14,7 +14,7 @@ class OrderMenu {
     if ((this.opened != -1) & (this.opened !== index)) {
       this.itemContainers[this.opened].obj.classList.remove("price__items_opened");
       this.orderItems[this.opened].obj.classList.remove("order-container_show");
-      document.getElementById(`arrow${index}`).src = './assets/accordion_btn.png';
+      document.getElementById(`arrow${this.opened}`).src = './assets/accordion_btn.png';
     }
     if (this.opened == index) {
       this.itemContainers[this.opened].obj.classList.remove("price__items_opened");

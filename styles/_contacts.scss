@@ -11,7 +11,7 @@
   padding: 0 0;
   margin-top: 60px;
   align-self: center;
-  font-family: 'Inika';
+  font-family: "Inika";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -35,14 +35,13 @@
   justify-content: space-between;
   width: 450px;
   height: 50px;
-  background: #D6E7D2;
+  background: #d6e7d2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   &:hover {
     cursor: pointer;
-    background-color: #C1E698;
-    ;
-    transition: .3s;
+    background-color: #c1e698;
+    transition: 0.3s;
   }
 
   &_drop {
@@ -52,7 +51,7 @@
   &__name {
     margin-left: 20px;
     align-self: center;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -77,19 +76,46 @@
 .contacts__select-city__drop {
   width: 450px;
   height: 234px;
-  background: #DCE9D9;
+  background: #dce9d9;
   display: none;
 
   &_drop {
     display: flex;
     flex-direction: column;
+    justify-content:  center;
+  }
+  &__items {
+    margin-bottom: 12px;
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #d9d9d9;
+    color: #499a18;
+
+    &:hover {
+      cursor: pointer;
+      color: #717171;
+      border-bottom: 1px solid #717171;
+    }
+
+    &_active {
+      color: #717171;
+      border-bottom: 1px solid #717171;
+    }
   }
 }
 
 .contacts__img {
-  position: relative;
+  position: absolute;
   width: 400px;
   height: 496px;
   margin-left: 109px;
-  margin-top: -150px;
+  margin-top: 45px;
 }

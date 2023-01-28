@@ -136,6 +136,9 @@
   margin-right: 40px;
   &:hover {
     cursor: pointer;
+    transform: scale(1.25);
+    border: 1px solid $second-color;
+    transition: 0.25s;
   }
 }
 

@@ -208,7 +208,8 @@ nav {
 }
 
 .service__content__btns_active {
-  background-color: #e06733;
+  background-color: #e06733 !important;
+  color: #EDF2EC !important;
 }
 
 .services {
@@ -402,6 +403,9 @@ nav {
 }
 .price__items__item__arrow:hover {
   cursor: pointer;
+  transform: scale(1.25);
+  border: 1px solid #e06733;
+  transition: 0.25s;
 }
 
 .order-container_show {

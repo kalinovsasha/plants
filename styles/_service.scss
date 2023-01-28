@@ -31,7 +31,8 @@
 }
 
 .service__content__btns_active {
-  background-color: $second-color;
+  background-color: $second-color !important;
+  color: #EDF2EC !important;
 }
 
 .services {

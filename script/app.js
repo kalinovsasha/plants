@@ -46,31 +46,37 @@ const priceContainer = document.querySelector(".price__items-container");
 const orderItems = [
   {
     id: "priceCheap",
-    obj : document.getElementById('priceCheap')
+    obj: document.getElementById("priceCheap"),
   },
   {
     id: "priceMedium",
-    obj : document.getElementById('priceMedium')
+    obj: document.getElementById("priceMedium"),
   },
   {
     id: "priceExpensive",
-    obj : document.getElementById('priceExpensive')
+    obj: document.getElementById("priceExpensive"),
   },
-]
+];
 
 const itemContainers = [
   {
     id: "priceCheap",
-    obj : document.getElementById('itmBasic')
+    obj: document.getElementById("itmBasic"),
   },
   {
     id: "priceMedium",
-    obj : document.getElementById('priceStandard')
+    obj: document.getElementById("priceStandard"),
   },
   {
     id: "pricePro",
-    obj : document.getElementById('pricePro')
+    obj: document.getElementById("pricePro"),
   },
-]
+];
 
-const orderMenu = new OrderMenu(orderItems,itemContainers, priceContainer);
+const dropArrows = document.querySelectorAll(".price__items__item__arrow");
+dropArrows.forEach((el) => {
+  el.addEventListener("click", (el) =>
+    orderMenu.open(Number(el.target.id.slice(5)))
+  );
+});
+const orderMenu = new OrderMenu(orderItems, itemContainers, priceContainer);

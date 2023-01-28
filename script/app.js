@@ -69,7 +69,7 @@ const itemContainers = [
   },
   {
     id: "pricePro",
-    obj : document.getElementById('priceExpensive')
+    obj : document.getElementById('pricePro')
   },
 ]
 

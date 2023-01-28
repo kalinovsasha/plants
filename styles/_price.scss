@@ -196,4 +196,9 @@
   font-size: 14px;
   line-height: 20px;
   color: #717171;
+  &:hover {
+    color: #ffffff;
+    background-color: #e06733;
+    transition: .25s;
+  }
 }

@@ -88,9 +88,57 @@
     margin-left: 13px;
     margin-top: 0px;
   }
+  .contacts__select-city__drop {
+    position: absolute;
+    margin-top: 51px;
+    width: 300px;
+    z-index: 3;
+  }
+
+  .address {
+    width: 282px;
+    height: 212px;
+    margin-top: 90px;
+    margin-left: 18px;
+    z-index: 2;
+    background-color: #edf2ec;
+    justify-self: center;
+  }
+  .address__item {
+    display: flex;
+    flex-direction: row;
+
+    &__title {
+      width: 65px;
+      height: 43px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      color: #000000;
+    }
+  }
+  .address__item__city,
+  .address__item__phone,
+  .address__item__office {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    height: 43px;
+    margin-left: 10px;
+  }
+  .address__btn {
+    margin-left: 80px;
+  }
 }
 
-@media (max-width: 369px) { 
+@media (max-width: 369px) {
   .contacts__select-city__city {
     width: 270px;
   }

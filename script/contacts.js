@@ -59,6 +59,11 @@ class ContactDropMenu {
       this.contactsDropBtn.src = "./assets/accordion_btn.png";
       if(this.currentOffice.city != "null") {
         this.addressCard.classList.add("address_visible");
+        if(window.innerWidth < 741) {
+          document.querySelector(".contacts__img").style.display= "none";
+        } else {
+          document.querySelector(".contacts__img").style.display= "block";
+        }
       }
     }
     this.contactsDropMenu.classList.toggle("contacts__select-city__drop_drop");

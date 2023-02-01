@@ -90,6 +90,11 @@
     border: 1px solid #e3e1d5;
   }
 
+  .price__items-container_opened {
+    height: 370px !important;
+    margin-top: -10px !important;
+  }
+
   .price__items {
     width: 180px;
     height: 50px;
